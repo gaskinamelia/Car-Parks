@@ -17,10 +17,6 @@
  */
 public class CarPark
 {
-	public static void main(String[] args) {
-		CarPark c = new CarPark("Canterbury", 20);
-		c.printDetails();
-	}
     // The capacity of that carpark.
     private int capacity;
     //The amount of cars that are currently in that carpark.
